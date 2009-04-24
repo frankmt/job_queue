@@ -18,6 +18,8 @@ class JobQueue::BeanstalkAdapter
         JobQueue.logger.info "Beanstalk received #{job.body}"
         yield job.body
         job.delete
+      rescue Beanstalk::DeadlineSoonError => e
+        error_report.call(job, e)  
       rescue => e
         error_report.call(job.body, e)
       end
