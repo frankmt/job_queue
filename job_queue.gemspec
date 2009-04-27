@@ -2,11 +2,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{job_queue}
-  s.version = "0.0.7"
+  s.version = "0.0.6"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Martyn Loughran"]
-  s.date = %q{2009-04-16}
+  s.date = %q{2009-04-27}
   s.description = %q{JobQueue means you don't have to worry about your queue any more!}
   s.email = %q{me@mloughran.com}
   s.extra_rdoc_files = [
@@ -29,8 +29,8 @@ Gem::Specification.new do |s|
     "spec/beanstalk_adapter_spec.rb",
     "spec/job_queue_spec.rb",
     "spec/spec_helper.rb",
-    "spec/test_adapter_spec.rb",
     "spec/stomp_adapter_spec.rb",
+    "spec/test_adapter_spec.rb",
     "spec/verbose_adapter_spec.rb"
   ]
   s.has_rdoc = true
@@ -44,8 +44,8 @@ Gem::Specification.new do |s|
     "spec/beanstalk_adapter_spec.rb",
     "spec/job_queue_spec.rb",
     "spec/spec_helper.rb",
-    "spec/test_adapter_spec.rb",
     "spec/stomp_adapter_spec.rb",
+    "spec/test_adapter_spec.rb",
     "spec/verbose_adapter_spec.rb"
   ]
 
