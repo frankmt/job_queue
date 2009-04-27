@@ -21,6 +21,7 @@ Gem::Specification.new do |s|
     "lib/job_queue.rb",
     "lib/job_queue/adapters/amqp_adapter.rb",
     "lib/job_queue/adapters/beanstalk_adapter.rb",
+    "lib/job_queue/adapters/stomp_adapter.rb",
     "lib/job_queue/adapters/test_adapter.rb",
     "lib/job_queue/adapters/verbose_adapter.rb",
     "lib/job_queue/job_queue.rb",
@@ -29,6 +30,7 @@ Gem::Specification.new do |s|
     "spec/job_queue_spec.rb",
     "spec/spec_helper.rb",
     "spec/test_adapter_spec.rb",
+    "spec/stomp_adapter_spec.rb",
     "spec/verbose_adapter_spec.rb"
   ]
   s.has_rdoc = true
@@ -43,6 +45,7 @@ Gem::Specification.new do |s|
     "spec/job_queue_spec.rb",
     "spec/spec_helper.rb",
     "spec/test_adapter_spec.rb",
+    "spec/stomp_adapter_spec.rb",
     "spec/verbose_adapter_spec.rb"
   ]
 
